@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+   <div class="container">
+    <div class="form_container">
+      <div class="signin-up">
+      <form class="sign-in" action="home.html" target="_blank" method="post"  name="form" onsubmit="return validated()">
+        <h2 class="title">Login </h2>
+        <div class="username">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder=" Enter Username" name="username"  >
+          
+          <div id="user_error"> please fill up your Username !</div>
+        </div><!-- username -->
+        <div class="password">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder=" Enter Password" name="password"  >
+          <div id="pass_error"> please fill up your Password !</div>
+        </div><!-- pass-->
+        <div class="cc">
+        <input id="hhhh" type="checkbox" class="but"  name="hbkjk" value="kklk">
+        <label for="mac1">Remember Me</label>
+        </div>
+        
+        <input type="Submit"  class="btn"  value="Login">
+        <p class="socail-text">Or Sign in with other platforms</p>
+        <div class="social-media">
+         <a href="https://www.facebook.com" target="_blank" class="socialIcons">
+          <i class="fab fa-facebook-f"></i>
+         </a>
+
+         <a href="#" class="socialIcons">
+          <i class="fab fa-twitter"></i>
+         </a>
+
+         <a href="https://www.google.com" target="_blank" class="socialIcons">
+          <i class="fab fa-google"></i>
+         </a>
+
+         <a href="https://www.linkedin.com" target="_blank" class="socialIcons">
+          <i class="fab fa-linkedin-in"></i>
+         </a>
+        </div><!-- socialIcons -->
+      </form>
+    </div><!-- form -->
+    
+   <div class="signup-up"> 
+    <form action="#" class="sign-up"  onsubmit="return valid()">
+      <h2 class="title">Register </h2>
+      <div class="username">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder=" Enter Username" name="username" required>
+        <p id="user_error"> please fill up your Username ! </p>
+      </div><!-- username -->
+
+      <div class="email">
+        <i class="fas fa-envelope"></i>
+        <input type="text" placeholder=" Enter your email" name="email" required>
+        <div id="email_error"> please fill up your email !</div>
+      </div><!-- email -->
+
+      <div class="password">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder=" Enter Password" name="password" required>
+        <p id="pass_error"> please fill up your Password !</p>
+      </div><!-- pass-->
+
+      <div class="con_password">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder=" Enter confirm Password" name="cpassword" required>
+        <p id="cpass_error"> please fill up your Password !</p>
+      </div><!-- pass-->
+      
+      <input type="Submit" class="btn"  value="register">
+      <p class="socail-text">Or Sign up with other platforms</p>
+      <div class="social-media">
+       <a href="https://www.facebook.com" target="_blank" class="socialIcons">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a href="#" class="socialIcons">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a href="https://www.google.com" target="_blank" class="socialIcons">
+        <i class="fab fa-google"></i>
+       </a>
+       <a href="https://www.linkedin.com" target="_blank" class="socialIcons">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div><!-- socialIcons -->
+    </form>
+   
+  </div><!-- signup-up -->
+</div><!-- form -->
+ <div class="panel-container">
+    <div class="panel panel-left">
+        <div class="content">
+             <h3>New Here?</h3>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima cum molestias provident. Magnam aliquid, unde culpa modi atque rem nihil sed soluta impedit vero eum ab debitis illo reprehenderit id?</p>
+             <button class="btn transparent" id="sign-up-button">Sign Up</button>
+        </div><!-- content -->
+       
+    </div><!-- panel-left -->
+    
+    <div class="panel panel-right">
+      <div class="content">
+           <h3>One of us</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cupiditate quia itaque molestias, pariatur placeat nulla vitae provident totam minima reprehenderit animi deserunt laborum aliquam expedita repellat culpa autem quam!</p>
+
+           <button class="btn transparent" id="sign-in-button">Sign In</button>
+      </div>
+  </div>
+
+ </div><!-- panel-container -->
+</div><!-- container -->
+
+  
+<script src="app.js"></script>
+</body>
+</html>
